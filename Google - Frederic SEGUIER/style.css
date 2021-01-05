@@ -1,0 +1,282 @@
+body {
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #70757a;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Debut de mon Header*/
+nav {
+  margin-top: 25px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+li {
+  list-style: none;
+  font-size: 13px;
+  padding-left: 15px;
+}
+a[href="https://accounts.google.com/ServiceLogin"]
+{
+  width: 93px;
+  padding: 6px 12px;
+  background-color: #4485f3;
+  color: white;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.kro {
+  height: 20px;
+  width: 22px;
+  background: url(img/logo_carreaux.png);
+}
+.kro:hover {
+  background: url(img/logo_carreaux_black.png);
+}
+.multicones {
+  display: none;
+  border: 1px solid black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 6px;
+  align-items: center;
+  overflow: scroll;
+  margin-left: -192px;
+  width: 320px;
+  height: 440px;
+  background-color: white;
+  border: 1px solid #bebbbb8a;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px #bebbbb8a, -2px -2px 5px #bebbbb8a;
+}
+.multicones div {
+  height: 67px;
+  width: 64px;
+  padding: 6px;
+
+  margin: 10px;
+  text-align: end;
+}
+.multicones div a {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  text-decoration: none;
+  color: #202124;
+}
+.multicones div:hover {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+}
+.kro:hover .multicones {
+  display: flex;
+}
+
+.Compte {
+  background: url(img/icons_google.png);
+  background-position: 5px -2691px;
+}
+.Recherche {
+  background: url(img/icons_google.png);
+  background-position: 5px -690px;
+}
+.Maps {
+  background: url(img/icons_google.png);
+  background-position: 5px -138px;
+}
+.YouTube {
+  background: url(img/icons_google.png);
+  background-position: 5px -1863px;
+}
+.Play {
+  background: url(img/icons_google.png);
+  background-position: 5px -1035px;
+}
+.Actualités {
+  background: url(img/icons_google.png);
+  background-position: 5px -414px;
+}
+.Gmail {
+  background: url(img/icons_google.png);
+  background-position: 5px -1449px;
+}
+.Meet {
+  background: url(img/icons_google.png);
+  background-position: 5px -2001px;
+}
+.Contacts {
+  background: url(img/icons_google.png);
+  background-position: 5px -1518px;
+}
+.Drive {
+  background: url(img/icons_google.png);
+  background-position: 5px -1380px;
+}
+.Agenda {
+  background: url(img/icons_google.png);
+  background-position: 5px -2829px;
+}
+.Traduction {
+  background: url(img/icons_google.png);
+  background-position: 5px -828px;
+}
+.Photo {
+  background: url(img/icons_google.png);
+  background-position: 5px -2760px;
+}
+.Duo {
+  background: url(img/icons_google.png);
+  background-position: 5px -2345px;
+}
+.Shopping {
+  background: url(img/icons_google.png);
+  background-position: 5px -2208px;
+}
+.Docs {
+  background: url(img/icons_google.png);
+  background-position: 5px -2620px;
+}
+.Sheets {
+  background: url(img/icons_google.png);
+  background-position: 5px -276px;
+}
+.Slides {
+  background: url(img/icons_google.png);
+  background-position: 5px -1242px;
+}
+.Livres {
+  background: url(img/icons_google.png);
+  background-position: 5px -2415px;
+}
+.Blogger {
+  background: url(img/icons_google.png);
+  background-position: 5px -966px;
+}
+.Hangouts {
+  background: url(img/icons_google.png);
+  background-position: 5px -1794px;
+}
+.Keep {
+  background: url(img/icons_google.png);
+  background-position: 5px -897px;
+}
+.Jamboard {
+  background: url(img/icons_google.png);
+  background-position: 5px -1932px;
+}
+.Earth {
+  background: url(img/icons_google.png);
+  background-position: 5px -2277px;
+}
+.Collections {
+  background: url(img/icons_google.png);
+  background-position: 5px -759px;
+}
+.ArtsCulture {
+  background: url(img/icons_google.png);
+  background-position: 5px -1173px;
+}
+.Googleads {
+  background: url(img/icons_google.png);
+  background-position: 5px -552px;
+}
+.Podcasts {
+  background: url(img/icons_google.png);
+  background-position: 5px -1311px;
+}
+.Stadia {
+  background: url(img/icons_google.png);
+  background-position: 5px -2139px;
+}
+.multicones div:last-child {
+  margin-bottom: 40px;
+  width: 300px;
+  border: black 1px solid;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+}
+.Autres a {
+  position: relative;
+  top: -24px;
+}
+/*Fin du header*/
+
+/*Debut du main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+input {
+  width: 582px;
+  height: 44px;
+  border-radius: 50px;
+  border: 1px solid #bebbbb8a;
+  background: url(img/micro.png);
+  background-repeat: no-repeat;
+  background-position: top 5px right 6px;
+}
+input:hover {
+  box-shadow: 2px 2px 5px #bebbbb8a, -2px -2px 5px #bebbbb8a;
+}
+button {
+  width: 150px;
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-size: 14px;
+  color: #3c4043;
+  border-radius: 4px;
+}
+button:hover {
+  border: 1px solid #bebbbb8a;
+  cursor: default;
+}
+.loupe {
+  transform: translate(-262px, -135px);
+}
+/*Fin du main*/
+
+/*Debut du footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f2f2f2;
+
+  margin-left: -10px;
+}
+.footer1 {
+  margin-bottom: 12px;
+  padding-left: 27px;
+  padding-top: 12px;
+  border-top: 1px solid #bebbbb8a;
+  color: #70757a;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  border-top: 1px solid #bebbbb8a;
+  padding-top: 12px;
+}
+
+.left a {
+  padding-left: 27px;
+}
+.right a {
+  padding-right: 27px;
+}
+/*Fin du Footer*/
